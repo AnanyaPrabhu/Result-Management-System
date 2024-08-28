@@ -1,0 +1,120 @@
+
+
+
+div.form-group{
+    display:block;
+    padding:20px;
+    
+}
+.form-control{
+    width:0px;
+    padding-left:10px;
+}
+#exampleInputEmail1{
+    padding:8px;
+    width:370px;
+}
+
+#exampleInputPassword1{
+    padding:8px;
+    width:370px;
+}
+label{
+    padding-right:270px;
+}
+
+#exampleInputName{
+    padding:8px;
+    width:370px;
+}
+.refnum{
+    padding-right:300px;
+}
+
+#Mobile{
+    padding:8px;
+    width:370px;
+}
+.phone{
+    padding-right:310px;
+
+}
+.name{
+    padding-right:330px;
+}
+.refnum{
+    padding-right:0px;
+}
+.phone{
+    padding-right:290px;
+}
+.date{
+    padding-right: 260px;
+}
+#exampleInputDate{
+    padding:8px;
+    width:370px;
+}
+#exampleAdd{
+    padding:8px;
+    width:370px;
+}
+.address{
+    padding-right: 307px;;
+}
+#exampleCom{
+    padding:8px;
+    width:370px;
+}
+.complaint{
+    padding-right:250px;;
+}
+.form-label{
+    padding-right: 190px;
+}
+#formFileMultiple{
+    padding:8px;
+    width:370px;
+}
+#submitButton{
+    padding:8px;
+    width:370px;
+}
+
+.msg{
+    width:100%;
+    position:relative;
+    margin-bottom: 60px;
+    display:flex;
+    justify-content: center;
+}
+.msg .success{
+    font-size: 20px;
+    position:absolute;
+    animation: buttons .3s linear;
+    display:none;
+    transition: .3s;
+    color:white;
+}
+.msg .danger{
+    font-size: 20px;
+    position:absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display:none;
+    color:aliceblue;
+}
+@keyframes buttons {
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+
